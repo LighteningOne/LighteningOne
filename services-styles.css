@@ -111,6 +111,7 @@ p1 {
   background-image: linear-gradient(to left, blue, purple, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-radius: 5px;
 }
 
 p2 {
@@ -122,6 +123,7 @@ p2 {
   background-image: linear-gradient(to left, blue, purple, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-radius: 5px;
 }
 
 p3 {
@@ -146,4 +148,14 @@ p10 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+p15 {
+  font-size: 25px;
+  border: 2.5px solid skyblue;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  color: orange;
+  border-radius: 10px;
 }

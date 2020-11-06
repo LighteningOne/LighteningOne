@@ -40,13 +40,20 @@ p2 {
 }
 
 p3,
-p4,
 p5,
 p6,
 p7 {
   font-size: 17px;
   color: #fff;
   text-align: center;
+  margin: 0;
+}
+
+p4 {
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -150,4 +157,3 @@ p10 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
